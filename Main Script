@@ -6,6 +6,6 @@ elseif PlaceId == 3956818381 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Unknown56406516401563456/Ninja-Legends-Ocean-Hub/main/Ninja%20Legends",true))()
 else
 	game.Players.LocalPlayer:kick("Please Execute This On Prison Life Or Ninja Legends")
-	wait(1)
+	wait(5)
 	game:Shutdown()
 end
