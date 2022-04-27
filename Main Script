@@ -1,0 +1,13 @@
+local PlaceId = game.PlaceId
+
+if PlaceId == 155615604 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Unknown56406516401563456/Prison-Life-Ocean-Hub/main/Prison%20Life%20Script",true))()
+elseif PlaceId == 3956818381 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Unknown56406516401563456/Ninja-Legends-Ocean-Hub/main/Ninja%20Legends",true))()
+elseif PlaceId == 2788229376 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Unknown56406516401563456/Da-Hood-Ocean-Hub/main/Da%20hood%20Script",true))()
+else
+	game.Players.LocalPlayer:kick("Please Execute This On Prison Life, Ninja Legends And Da Hood")
+	wait(5)
+	game:Shutdown()
+end
