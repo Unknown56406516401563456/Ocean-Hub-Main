@@ -7,7 +7,7 @@ elseif PlaceId == 3956818381 then
 elseif PlaceId == 2788229376 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Unknown56406516401563456/Da-Hood-Ocean-Hub/main/Da%20hood%20Script"))()
 elseif PlaceId == 1962086868 then
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Unknown56406516401563456/Tower-Of-Hell-Ocean-Hub/main/Tower%20Of%20Hell%20Script"))()
+	eloadstring(game:HttpGet("https://raw.githubusercontent.com/Unknown56406516401563456/Tower-Of-Hell-Ocean-Hub/main/Tower%20Of%20Hell%20Script"))()
 else
 	game.Players.LocalPlayer:kick("Please Execute This Only On Ninja Legends, Prison Life, Da Hood Or Tower Of Hell.")
 	wait(10)
