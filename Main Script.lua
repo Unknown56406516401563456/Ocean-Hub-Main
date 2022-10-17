@@ -13,7 +13,7 @@ elseif PlaceId == 5326405001 then
 elseif PlaceId == 10087074695 then
 	loadstring(game:HttpGet"https://raw.githubusercontent.com/Unknown56406516401563456/Knife-Strife-Ocean-Hub/main/Knife%20Strife%20Script.lua")()
 else
-        game.Players.LocalPlayer:kick("Please Execute This Script On Prison Life, Ninja Legends, Tower Of Hell, Da Hood, Base Battles Or Kinfe Strife")
+        game.Players.LocalPlayer:kick("Please Execute This Script On Prison Life, Ninja Legends, Tower Of Hell, Da Hood, Base Battles Or Knife Strife")
         wait(10)
         game:Shutdown()
 end
