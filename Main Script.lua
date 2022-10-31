@@ -4,10 +4,8 @@ rconsolename("Ocean Hub")
 rconsoleprint("@@LIGHT_GREEN@@")
 rconsoleprint[[
 Credits:
-
 This Hub Was Created By God_Stando
 Please Go Search It On Roblox
-
 The Ui Library Was Not Made By Me.
 Shoutout Who Made The Ui Library
 It Is Called "KAVO UILIBRARY"
@@ -18,7 +16,6 @@ Them.
 Credits Ends.
 
 Thanks:
-
 Thank You For Using Our Script
 Please Enjoy! We Made This
 For Fun. This Is Made By
@@ -52,8 +49,10 @@ elseif PlaceId == 5326405001 then
         loadstring(game:HttpGet"https://raw.githubusercontent.com/Unknown56406516401563456/Base-Battles-Ocean-Hub/main/Base%20Battles%20Script")()
 elseif PlaceId == 10087074695 then
 	loadstring(game:HttpGet"https://raw.githubusercontent.com/Unknown56406516401563456/Knife-Strife-Ocean-Hub/main/Knife%20Strife%20Script.lua")()
+elseif PlaceId == 4982770650 then
+	loadstring(game:HttpGet"https://raw.githubusercontent.com/Unknown56406516401563456/Minies-Vs-Giant-Ocean-Hub/main/Script.lua")()
 else
-        game.Players.LocalPlayer:kick("Please Execute This Script On Prison Life, Ninja Legends, Tower Of Hell, Da Hood, Base Battles Or Knife Strife")
+        game.Players.LocalPlayer:kick("Please Execute This Script On Prison Life, Ninja Legends, Tower Of Hell, Da Hood, Base Battles, Knife Strife Or Minies Vs Giant Beta.")
         wait(10)
         game:Shutdown()
 end
